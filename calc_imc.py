@@ -34,7 +34,7 @@ def salvar_dados():
             resultado_imc.config(text=f'Seu IMC é de: {imc} - Obesidade Grau II')
         else:
             resultado_imc.config(text=f'Seu IMC é de: {imc} - Obesidade Grau III')
-
+            
     except(ValueError):
         messagebox.showinfo(title="Atenção", message='Preencha as informações de Altura e Peso')
 
